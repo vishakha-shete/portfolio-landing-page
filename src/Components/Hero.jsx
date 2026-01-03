@@ -84,7 +84,7 @@ const Hero = () => {
                 </div>
 
                 {/* CTA */}
-                <button className="mt-8 px-6 py-2 rounded-full bg-yellow-200 text-black font-semibold hover:bg-lime-200 transition">
+                <button className="mt-8 mb-4 px-6 py-2 rounded-full bg-yellow-200 text-black font-semibold hover:bg-lime-200 transition">
                     MY PROJECTS
                 </button>
 
