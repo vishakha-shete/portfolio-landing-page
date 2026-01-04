@@ -4,7 +4,7 @@ import project3 from "../assets/project3.jpg";
 
 const Projects = () => {
     return (
-        <section className="relative py-15 px-4 sm:px-8 overflow-hidden">
+        <section className="relative py-20 px-4 sm:px-8 overflow-hidden">
 
             {/* BACKGROUND */}
             <div className="absolute  inset-0 bg-gradient-to-b from-[#020617] via-[#0b1220] to-[#020617]" />
@@ -13,8 +13,8 @@ const Projects = () => {
             <div className="relative z-10 max-w-8xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-16">
 
                 {/* LEFT TEXT */}
-                <div className="text-white max-w-xl">
-                    <h2 className="text-4xl md:text-6xl font-semibold leading-tight">
+                <div className="text-white max-w-xl text-center lg:text-left">
+                    <h2 className="text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight">
                         THE WORKS <br /> CLOSEST TO <br /> MY HEART
                     </h2>
 
@@ -24,10 +24,10 @@ const Projects = () => {
                 </div>
 
                 {/* RIGHT PROJECT CARDS */}
-                <div className="flex items-end gap-6">
+                <div className="flex items-end justify-center gap-4 sm:gap-6">
 
                     {/* MAIN CARD */}
-                    <div className="relative w-[220px] sm:w-[260px] h-[340px] rounded-2xl overflow-hidden shadow-xl">
+                    <div className="relative w-[220px] sm:w-[260px] h-[320px] sm:h-[360px] rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition">
                         <img
                             src={project1}
                             alt="Project 1"
@@ -39,7 +39,7 @@ const Projects = () => {
                     </div>
 
                     {/* SMALL CARD 1 */}
-                    <div className="w-[90px] sm:w-[110px] h-[300px] rounded-2xl overflow-hidden shadow-xl">
+                    <div className="hidden sm:block w-[100px] sm:w-[120px] h-[300px] rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition">
                         <img
                             src={project2}
                             alt="Project 2"
@@ -48,7 +48,7 @@ const Projects = () => {
                     </div>
 
                     {/* SMALL CARD 2 */}
-                    <div className="w-[90px] sm:w-[110px] h-[300px] rounded-2xl overflow-hidden shadow-xl">
+                    <div className="hidden sm:block w-[100px] sm:w-[120px] h-[300px] rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition">
                         <img
                             src={project3}
                             alt="Project 3"
