@@ -25,7 +25,7 @@ const Skills = () => {
             <div className="absolute inset-0 bg-gradient-to-b from-[#020617] via-[#0b1220] to-[#020617]" />
 
             {/* CONTENT */}
-            <div className="relative z-16 max-w-4xl  mx-auto">
+            <div className="relative z-16 max-w-5xl  mx-auto">
 
                 {/* HEADING */}
                 <h2 className="text-center text-4xl md:text-6xl font-bold text-yellow-200 mb-16">

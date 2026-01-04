@@ -3,6 +3,8 @@ import Navbar from './Components/navbar.jsx'
 import Hero from './Components/Hero.jsx'
 import About from './Components/about.jsx'
 import Skills from './Components/Skills.jsx'
+import AdditionalSkills from './Components/AdditionalSkills.jsx'
+import Projects from './Components/Projects.jsx'
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Hero />
       <About />
       <Skills />
+      <AdditionalSkills />
+      <Projects />
     </div>
   )
 }
