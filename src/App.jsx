@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Components/navbar.jsx'
 import Hero from './Components/Hero.jsx'
 import About from './Components/about.jsx'
+import Skills from './Components/Skills.jsx'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Skills />
     </div>
   )
 }
